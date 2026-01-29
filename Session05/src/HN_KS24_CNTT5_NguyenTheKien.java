@@ -96,10 +96,10 @@ public class HN_KS24_CNTT5_NguyenTheKien {
                     }
                     break;
                 case 6:
-                    System.out.println("Thoát chương trình.");
+                    System.out.println("Thoát chương trình");
                     break;
                 default:
-                    System.out.println("Lựa chọn không hợp lệ.");
+                    System.out.println("Lựa chọn không hợp lệ");
             }
         }while (choice != 6);
 
