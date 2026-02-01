@@ -21,7 +21,7 @@ public class Account {
     }
 
     public static void main(String[] args) {
-        Account acc = new Account("huy123", "123456", "huy@gmail.com");
+        Account acc = new Account("kien123", "123456", "kien@gmail.com");
         acc.display();
         acc.changePassword("newpass789");
         acc.display();
