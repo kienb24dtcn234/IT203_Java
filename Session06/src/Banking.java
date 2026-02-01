@@ -51,13 +51,13 @@ public class Banking {
         System.out.println("Balance: " + balance);
     }
     public static void main(String[] args) {
-        Banking banking = new Banking("012345678","huy",99999.99);
+        Banking banking = new Banking("012345678","kien",9999912.99);
         banking.display();
         banking.withdraw(10);
         banking.display();
-        banking.accountNumber = "012345678";
+        banking.accountNumber = "0123456790";
         banking.name = "huy";
-        banking.balance = 99999.99;
+        banking.balance = 99999.9999;
         banking.display();
 
 
