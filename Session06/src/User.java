@@ -60,9 +60,9 @@ public class User {
     }
 
     public static void main(String[] args) {
-        User u1 = new User("U01", "huy", "123456", "huy@gmail.com");
+        User u1 = new User("U01", "kien", "12342356", "kien@gmail.com");
         User u2 = new User("U02", "admin", "", "admin@gmail.com");
-        User u3 = new User("U03", "test", "abc123", "email_sai");
+        User u3 = new User("U03", "test", "abc12312", "email_sai");
 
         u1.display();
         u2.display();
