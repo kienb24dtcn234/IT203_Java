@@ -13,9 +13,9 @@ class Person {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        Person p1 = new Person("Huy");
+        Person p1 = new Person("Thế");
         Person p2 = p1;
-        p2.name = "Hiền";
+        p2.name = "Kiên";
 
         System.out.println("p1.name = " + p1.name);
         System.out.println("p2.name = " + p2.name);
