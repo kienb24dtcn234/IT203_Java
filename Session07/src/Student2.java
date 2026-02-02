@@ -19,9 +19,9 @@ class Student2 {
     }
 
     public static void main(String[] args) {
-        Student2 s1 = new Student2("SV001", "Huy");
-        Student2 s2 = new Student2("SV002", "Hiền");
-        Student2 s3 = new Student2("SV003", "Cachiu");
+        Student2 s1 = new Student2("SV001", "Kiên");
+        Student2 s2 = new Student2("SV002", "Huy");
+        Student2 s3 = new Student2("SV003", "Ninh");
 
         s1.display();
         s2.display();
