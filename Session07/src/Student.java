@@ -45,9 +45,9 @@
         }
 
         public static void main(String[] args) {
-            Student s1 = new Student("Huy", 101);
-            Student s2 = new Student("Kiên", 102);
-            Student s3 = new Student("Hiếu", 103);
+            Student s1 = new Student("Kiên", 101);
+            Student s2 = new Student("Huy", 102);
+            Student s3 = new Student("Ninh", 103);
 
             s1.displayInfo();
             s2.displayInfo();
