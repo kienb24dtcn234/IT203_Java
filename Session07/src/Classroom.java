@@ -16,9 +16,9 @@ class ClassRoom {
     }
 
     public static void main(String[] args) {
-        ClassRoom s1 = new ClassRoom("Huy");
-        ClassRoom s2 = new ClassRoom("Hiền");
-        ClassRoom s3 = new ClassRoom("Cachiu");
+        ClassRoom s1 = new ClassRoom("Nguyễn");
+        ClassRoom s2 = new ClassRoom("Thế");
+        ClassRoom s3 = new ClassRoom("Kiên");
 
         s1.payFund(50000);
         s2.payFund(30000);
