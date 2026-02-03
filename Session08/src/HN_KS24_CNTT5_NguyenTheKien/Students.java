@@ -6,12 +6,12 @@ public class Students {
     private double score;
 
     public Students() {
-        this.id = "SV00";
+        this.id = "SV000";
         this.name = "Unknown";
         this.score = 0.0;
     }
 
-    public Students(String id, String name, Double score){
+    public Students(String id, String name, double score){
         this.id = id;
         this.name = name;
         this.score = score;
@@ -52,7 +52,7 @@ public class Students {
         } else if (score >= 6.5) {
             return "Khá";
         } else {
-            return "Trung bình ";
+            return "Trung bình";
         }
     }
     public String toString() {
