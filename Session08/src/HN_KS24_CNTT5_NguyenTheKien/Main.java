@@ -39,6 +39,7 @@ public class Main {
         } while (choice != 5);
     }
 
+    
     static void inputStudents() {
         System.out.print("Nhập số lượng sinh viên: ");
         n = sc.nextInt();
@@ -66,6 +67,7 @@ public class Main {
         }
     }
 
+    
     static void displayStudents() {
         if (students == null) {
             System.out.println("Chưa có danh sách sinh viên ");
@@ -76,6 +78,8 @@ public class Main {
             System.out.println(s);
         }
     }
+
+    
     static void sortByScoreDesc() {
         if (students == null) {
             System.out.println("Chưa có dữ liệu ");
